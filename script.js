@@ -1,1 +1,3 @@
-document.querySelectorAll('*').forEach(el => el.style.filter = 'none')
+document
+	.querySelectorAll('main, aside, div')
+	.forEach((el) => (el.style.filter = 'none'));
