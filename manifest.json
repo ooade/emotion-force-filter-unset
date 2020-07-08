@@ -1,0 +1,11 @@
+{
+    "name": "Filter None",
+    "version": "0.1.0",
+    "description": "Removes the filter in emotion css documentation website",
+    "content_scripts": [{
+      "run_at": "document_end",
+      "matches": ["https://emotion.sh/*"],
+      "js": ["script.js"]
+    }],
+    "manifest_version": 2
+  }

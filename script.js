@@ -1,0 +1,1 @@
+document.querySelectorAll('*').forEach(el => el.style.filter = 'none')
